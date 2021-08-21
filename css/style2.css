@@ -1,0 +1,29 @@
+body {
+	background-image: url(https://store-images.s-microsoft.com/image/apps.41929.14246448385562777.7795b656-4cc6-43e1-897f-ecca74691263.ce6424bf-ec09-434a-9a0d-6d9507621cfa?mode=scale&q=90&h=1080&w=1920);
+	background-size: cover;
+}
+
+header{ 
+
+	
+}
+
+h1 {
+	text-align: right;
+}
+h2 {
+	text-align: right;
+	margin: 0 0 0 500px; 
+	font-size: 20px;
+}
+
+button {
+  border: 3px solid black;
+  color: blue;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: white;
+}

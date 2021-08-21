@@ -1,0 +1,75 @@
+
+body{
+    text-align: center;
+    background-image: url(https://thumbs.dreamstime.com/b/alien-planet-landscape-space-game-background-alien-planet-landscape-space-game-background-vector-cartoon-fantasy-199231059.jpg);
+    background-size: cover;
+    animation: space_anim 75s linear infinite;
+ }
+
+@keyframes space_anim{
+%{background-position: 0 0;}
+100%{background-position: -2122px 0; }
+}
+
+ h1{
+    font-family: 'Rancho', cursive;
+    font-size: 70px;
+    color: yellow;
+ }
+
+#player {
+    font-size: 40px;
+}
+
+ h3{
+   font-family: 'Abril Fatface', cursive;
+   font-size: 25px;
+
+ }
+
+
+#container{
+    background-color: rgb(173, 216, 230);
+    display: inline-block;
+}
+    
+.col{
+    width:70px;
+    height: 70px;
+    display: inline-block;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+
+.col.empty{
+    cursor: pointer;
+}
+
+.place-red{
+    background-color: rgba(255,0,0,0.2);
+}
+
+.col.red{
+    background-color: red;
+}
+
+.place-black{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.col.black{
+    background-color: black;
+}
+
+button {
+  border: 1px solid yellow;
+  color: yellow;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: rgba(100, 100, 100, 0.5);
+}
